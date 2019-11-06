@@ -6,7 +6,7 @@ script:
 notifications:
   slack: https://asisqy.slack.com/services/BQ9TLBH1U
    on_failure: always
-   on_success: never
+   on_success: always
 
   email:
    recipients:
