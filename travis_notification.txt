@@ -1,0 +1,15 @@
+langage: python
+python:
+	-"3.6"
+	-"3.7"
+	-"3.8"
+
+script:
+	-echo"hello world"
+
+notifications:
+	slack
+		rooms:
+		- asisqy: xoxp-819361314902-821767369125-823336169380-a20a796d153979ecad89dafd2aaa49f6
+		on_success: change
+		on_failure: always 

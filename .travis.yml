@@ -20,3 +20,5 @@ notifications:
     -a.mace@ecole-ipssi.net
     -a.ndoye@ecole-ipssi.net
    if: branch = master
+   on_failure: never
+   on_success: always
