@@ -1,0 +1,15 @@
+language: python
+
+echo 'hello word'
+
+notifications:
+  slack: https://asisqy.slack.com/services/BQ9TLBH1U
+   on_failure: always
+   on_success: never
+
+  email:
+   recipients:
+    -a.mace@ecole-ipssi.net
+    -a.ndoye@ecole-ipssi.net
+   on_success: always
+   on_failure: never
