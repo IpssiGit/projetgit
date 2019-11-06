@@ -4,9 +4,7 @@ script:
   - echo "hello word"
 
 notifications:
-  slack :
-    rooms:
-      - asisqy:xoxp-819361314902-823976472182-823795138992-f377dbec27e880744f39d9a94d583094#git-test
+  slack: asisqy:2DTVYuXbaLVkZFRZTxO6bMYx
    on_failure: always
    on_success: change
 
