@@ -13,10 +13,3 @@ notifications:
 		- asisqy: xoxp-819361314902-821767369125-823336169380-a20a796d153979ecad89dafd2aaa49f6
 		on_success: change
 		on_failure: always 
-
-  email:
-   recipients:
-    -a.mace@ecole-ipssi.net
-    -a.ndoye@ecole-ipssi.net
-   on_success: always
-   on_failure: never		
